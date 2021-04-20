@@ -1,0 +1,3 @@
+docker run -it --rm \
+-v "$PWD":/usr/local/go/src/myapp/ \
+-w /usr/local/go/src/myapp/ golang:1.13
